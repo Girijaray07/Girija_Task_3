@@ -13,13 +13,11 @@ try:
 
     headlines = []
 
-    # Find headline elements (BBC uses <h3> for many headlines)
     for h in soup.find_all("h3"):
         text = h.get_text(strip=True)
         if text:
             headlines.append(text)
 
-    # Save to file
     with open("headlines.txt", "w", encoding="utf-8") as file:
         for line in headlines:
             file.write(f"{line}\n")
