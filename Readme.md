@@ -42,28 +42,22 @@ This project is a **Python-based web scraper** designed to extract top headlines
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/bbc-news-scraper.git
+git clone https://github.com/Girijaray07/Girija_Task_3.git
 ```
 
 2. Navigate into the project directory:
 
 ```bash
-cd bbc-news-scraper
+cd Girija_Task_3
 ```
 
-3. Install required libraries:
+3. Run the script:
 
 ```bash
-pip install -r requirements.txt
+python -u webScraper.py
 ```
 
-4. Run the script:
-
-```bash
-python scraper.py
-```
-
-5. View the output in `headlines.txt`:
+4. View the output in `headlines.txt`:
 
 ```bash
 cat headlines.txt
