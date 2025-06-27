@@ -1,3 +1,5 @@
+# [![BBC News Web Scraper](./Images/Header.png)](https://github.com/Girijaray07/Girija_Task_3)
+
 # 📰 BBC News Web Scraper
 
 This project is a **Python-based web scraper** designed to extract top headlines from the [BBC News](https://www.bbc.com/news) homepage. It fetches the latest headlines and stores them in a text file (`headlines.txt`) for offline reading or processing.
